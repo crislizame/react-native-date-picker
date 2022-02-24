@@ -36,6 +36,7 @@ export default {
   textColor: PropTypes.string,
   timeZoneOffsetInMinutes: PropTypes.number,
   testID: ViewPropTypes.testID,
+  accessibilityLabel: ViewPropTypes.testID,
   style: ViewPropTypes.style,
   ...modalPropTypes,
 }
